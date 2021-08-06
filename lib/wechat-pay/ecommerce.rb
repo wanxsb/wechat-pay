@@ -11,6 +11,7 @@ require 'wechat-pay/ecommerce/profitsharing'
 require 'wechat-pay/ecommerce/subsidies'
 require 'wechat-pay/ecommerce/refund'
 require 'wechat-pay/ecommerce/bill'
+require 'wechat-pay/ecommerce/applyment4sub'
 
 module WechatPay
   # # 服务商相关接口封装（电商平台，服务商有许多接口共用）

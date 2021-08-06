@@ -69,8 +69,9 @@ module WechatPay
     def self.media_upload(image)
       url = '/v3/merchant/media/upload'
       method = 'POST'
+      filename = File.basename(image.to_path)
       meta = {
-        filename: image.to_path,
+        filename: filename,
         sha256: Digest::SHA256.hexdigest(image.read)
       }
 

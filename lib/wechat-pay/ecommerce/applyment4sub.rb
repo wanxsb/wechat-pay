@@ -102,7 +102,7 @@ module WechatPay
     #
 
     def self.micro_applyment(payload)
-      url = '/v3/applyment4sub/applyments/'
+      url = '/v3/applyment4sub/applyment/'
       method = 'POST'
 
       payload_json = payload.to_json
